@@ -1,41 +1,44 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/global.css">
+  <link rel="stylesheet" href="css/styles.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins" rel="stylesheet">
-
   <title>Login - raízen</title>
 </head>
+
 <body>
-  <main>
-    <form>
-
-      <h1>Universide Raízen</h1>
-
-      <div class="form-group">
-        <img src="#" alt="Logo">
+  <div id="login-container">
+    <form action="#">
+      
+      <div class="logo-login">
+        <img src="./assets/logo-login.png" alt="Logo de fundo">
       </div>
 
       <div class="form-group">
-        <input type="email" class="form-control" placeholder="LOGIN">
-      </div>
+        <h1>Universidade</h1>
+        <img src="assets/logo-login2.png" width="95px" alt="title-login">
+        <label for="email"></label>
+        <input type="email" name="email" id="email" class="email" placeholder="LOGIN" autocomplete="off" required>
+        <label for="password"></label>
+        <input type="password" name="password" id="password" class="password" placeholder="SENHA" required>
 
-      <div class="form-group">
-        <input type="password" class="form-control" placeholder="SENHA">
-      </div>
+        <div class="form-control">
+          <div class="wrapper">     
+            <input type="submit" value="Enviar">
+          </div>
+          <div class="wrapper">
+            <a href="#" id="forgot-pass">Esqueceu a senha?</a>
+          </div>
+        </div>
 
-      <div class="form-group">
-        <button type="submit" class="btn js-btn-primary">Enviar</button>
       </div>
-
-      <div class="form-group">
-        <p>Esqueceu a sua senha?</p>
-      </div>
-    
+        
     </form>
-  </main>
+  </div>
 </body>
+
 </html>
