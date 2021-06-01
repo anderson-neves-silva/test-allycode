@@ -102,7 +102,6 @@ input[type="submit"]:hover {
 .logo-login img {
   display: flex;
   width: 70%;
-  margin-left: 55px;
   align-items: center;
 }
 
@@ -153,6 +152,42 @@ header {
   background: #fff;
 }
 
+header h2 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
 .logo-main {
   width: 20rem;
+  margin-top: .25rem;
+}
+
+.wrapper-main {
+  display: flex;
+  margin-top: 2.188rem;
+  color: #4A4A4A;
+}
+
+.arrow-main {
+  margin-left: .625rem;
+  cursor: pointer;
+}
+
+.notifications-main {
+  margin-left: 30px;
+}
+
+.notification-counter {
+  display: flex;
+  margin-left: 5px;
+  margin-bottom: 2px;
+  width: 25px;
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: #E21683;
+  cursor: pointer;
 }
