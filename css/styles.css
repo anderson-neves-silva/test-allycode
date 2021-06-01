@@ -103,6 +103,7 @@ input[type="submit"]:hover {
   display: flex;
   width: 70%;
   align-items: center;
+  margin-left: 4rem;
 }
 
 .form-group {
